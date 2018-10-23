@@ -1,0 +1,39 @@
+body,html{height:100%;margin:0}
+.bg{background-image:url(../img/cc.jpg);height:100%;background-position:center -100px;background-repeat:no-repeat;background-size:cover}
+@media only screen and (min-width:900px){
+.bg{background-size:contain}
+}
+.caption{position:absolute;left:0;top:50%;width:100%;text-align:center;color:#000;opacity:.5}
+.caption span.border{color:#000;margin:0 auto;letter-spacing:10px;text-shadow:1px 1px #fff}
+h3{letter-spacing:5px;text-transform:uppercase;font:20px Lato,sans-serif;color:#111}
+.bounce{display:inline-block;position:relative;-moz-animation:bounce .5s infinite linear;-o-animation:bounce .5s infinite linear;-webkit-animation:bounce .5s infinite linear;animation:bounce .5s infinite linear}
+@-webkit-keyframes bounce{
+0%{top:0}
+50%{top:-.2em}
+70%{top:-.3em}
+100%{top:0}
+}
+@-moz-keyframes bounce{
+0%{top:0}
+50%{top:-.2em}
+70%{top:-.3em}
+100%{top:0}
+}
+@-o-keyframes bounce{
+0%{top:0}
+50%{top:-.2em}
+70%{top:-.3em}
+100%{top:0}
+}
+@-ms-keyframes bounce{
+0%{top:0}
+50%{top:-.2em}
+70%{top:-.3em}
+100%{top:0}
+}
+@keyframes bounce{
+0%{top:0}
+50%{top:-.2em}
+70%{top:-.3em}
+100%{top:0}
+}
