@@ -3,24 +3,108 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>thegreedypeople</title>
-    <link rel="stylesheet" href="res/css/clean.css" />
-    <link rel="stylesheet" href="res/css/s1.css" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- res/css/clean.css -->
+    <title>thgrdyppl</title>
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            /* font-family: Arial, Helvetica, sans-serif; */
+        }
+        
+        .hero-image {
+            background-image: url("res/img/backdrop_slide.png");
+            height: 97%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        
+        .hero-text {
+            /* text-align: center; */
+            position: absolute;
+            /* top: 50%; */
+            top: 10px;
+            /* left: 50%; */
+            left: 20px;
+            /* transform: translate(-50%, -50%); */
+            color: black;
+        }
+        
+        .hero-text button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 10px 25px;
+            color: black;
+            background-color: #ddd;
+            text-align: center;
+            cursor: pointer;
+        }
+        
+        .hero-text button:hover {
+            background-color: #555;
+            color: white;
+        }
+        
+        .grad_rasta {
+            height: 3px!important;
+            background-image: linear-gradient(to bottom, red, yellow, green);
+        }
+        
+        .animate-me {
+            animation: 25s infinite bgcolorchange;
+        }
+        
+        @keyframes bgcolorchange {
+            0% {
+                background-color: white;
+            }
+            25% {
+                background-color: gray;
+            }
+            50% {
+                background-color: black;
+            }
+            75% {
+                background-color: gray;
+            }
+            100% {
+                background-color: white;
+            }
+        }
+        
+        @-webkit-keyframes bgcolorchange {
+            0% {
+                background-color: white;
+            }
+            25% {
+                background-color: gray;
+            }
+            50% {
+                background-color: black;
+            }
+            75% {
+                background-color: gray;
+            }
+            100% {
+                background-color: white;
+            }
+        }
+    </style>
 </head>
 
 <body>
-    <div class="bg">
-        <div class="caption">
-            <span class="border" style="font-size:8vw;">thegreedypeople</span><br/><br/>
-            <i class="fa fa-globe fa-spin" style="font-size:48px;color:aliceblue"></i><br/>
-            <i class="material-icons bounce" style="font-size:48px;color:red">&#xe313;</i>
+
+    <div class="hero-image">
+        <div class="hero-text">
+            <span style="font-size:8vw;">thegreedypeople</span>
         </div>
     </div>
+    <div class="grad_rasta"></div>
 
-    <p class="w3-hide">This example creates a full page background image. Try to resize the browser window to see how it always will cover the full screen (when scrolled to top), and that it scales nicely on all screen sizes.</p>
+    <!-- <p>Page Content..</p> -->
 
 </body>
 
