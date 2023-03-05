@@ -1,0 +1,21 @@
+@import "main.css"; /* Using a string */
+
+*{font-family:Roboto}
+img.mast{width:60px}
+header{height:150px}
+.refit{font-size:1.4rem}
+
+#footer a{text-decoration:none;color:white}
+.nav1{width:180px}
+.nav1 a{width:80px}
+.hide{display:none}
+
+.dark-mode{background-color:black;color:white}
+
+.tiny{font-size:10px!important}
+.small{font-size:12px!important}
+
+/* colors */
+.asphalt{color:#fff!important;background-color:#34495e!important}
+.belize{color:#fff!important;background-color:#2980b9!important}
+.clouds{color:#000!important;background-color:#ecf0f1!important}
