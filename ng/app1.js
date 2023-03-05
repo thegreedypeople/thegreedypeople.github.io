@@ -22,7 +22,9 @@ app.directive("footer", function() {
 
 // controllers
 app.controller('app1Ctrl', function($scope) {
-$scope.lastupdate = "March 5, 2023";
+$scope.lastupdate = "March 6, 2023";
+
+$scope.showNav = false; //show navigation
 
 $scope.navs = [
 {nav:"Home",link:"/"},
