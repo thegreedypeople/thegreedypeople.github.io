@@ -21,7 +21,7 @@
         <h1 class="refit">{{ owner }}</h1>
         <p>dis-infecting social dependencies</p>
       </header>
-      <div class="container mt-2">
+      <div ng-show="{{ showNav }}" class="container mt-2">
         <div class="mx-auto nav1">
           <a class="btn btn-outline-secondary m-1 btn-sm small" ng-repeat="x in navs" href="{{ x.link }}">{{ x.nav }}</a>
         </div>
