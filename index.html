@@ -28,16 +28,39 @@
       </div>
       <section class="container py-2 my-2">
         <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3">
-          <div class="col mb-4" ng-repeat="d in dreams">
+          <!-- s -->
+          <div class="col mb-4">
             <div class="card h-100">
-              <img src="assets/dream/{{ d.link }}.webp" class="card-img-top" alt="{{ d.title }}">
               <div class="card-body">
-                <h5 class="card-title">{{ d.title }}</h5>
-                <p class="card-text">url : <a href="{{ list }}{{ d.link }}" class="small">{{ list }}{{ d.link }}</a>
-                </p>
+                <h5 class="card-title">Random "building" image</h5>
+                <p class="card-text small">https://loremflickr.com/g/720/480/building/all?random=1</p>
               </div>
+             <img src="https://loremflickr.com/g/720/480/building/all?random=1" class="img-fluid card-img-bottom" alt="random image from loremflickr.com/g">
             </div>
           </div>
+          <!-- e -->
+          <!-- s -->
+          <div class="col mb-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Random "people" image</h5>
+                <p class="card-text small">https://loremflickr.com/g/720/480/people/all?random=1</p>
+              </div>
+             <img src="https://loremflickr.com/g/720/480/people/all?random=1" class="img-fluid card-img-bottom" alt="random image from loremflickr.com/g">
+            </div>
+          </div>
+          <!-- e -->
+          <!-- s -->
+          <div class="col mb-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Random "happy" image</h5>
+                <p class="card-text small">https://loremflickr.com/g/720/480/happy/all?random=1</p>
+              </div>
+             <img src="https://loremflickr.com/g/720/480/happy/all?random=1" class="img-fluid card-img-bottom" alt="random image from loremflickr.com/g">
+            </div>
+          </div>
+          <!-- e -->
         </div>
       </section>
       <!-- directive: footer -->
