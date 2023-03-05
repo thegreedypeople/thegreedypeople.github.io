@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="thegreedypeople.github.io" name="generator">
+    <link href="https://thegreedypeople.github.io/favicon.ico" rel="icon" type="image/x-icon">
+    <link href="https://thegreedypeople.github.io/" rel="canonical">
+    <meta content="https://thegreedypeople.github.io/" property="og:url">
+    <meta content="thegreedypeople" property="og:title">
+    <meta content="Mga himaya sa huna-huna" property="og:description">
+    <title>the blog. thegreedypeople.</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400" rel="stylesheet">
+    <link href="misc/style.css" rel="stylesheet">    
+  </head>
+  <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <div ng-app="app1" ng-controller="app1Ctrl">
+      <header id="site-header" class="text-center belize container-fluid">
+        <img class="clouds rounded-circle my-2 border border-dark mast" src="assets/images/logo.webp">
+        <h1 class="refit">{{ owner }}</h1>
+        <p>dis-infecting social dependencies</p>
+      </header>
+      <div class="container mt-2">
+        <div class="mx-auto nav1">
+          <a class="btn btn-outline-secondary m-1 btn-sm small" ng-repeat="x in navs" href="{{ x.link }}">{{ x.nav }}</a>
+        </div>
+      </div>
+      <section class="container py-2 my-2">
+        <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3">
+          <div class="col mb-4" ng-repeat="d in dreams">
+            <div class="card h-100">
+              <img src="assets/dream/{{ d.link }}.webp" class="card-img-top" alt="{{ d.title }}">
+              <div class="card-body">
+                <h5 class="card-title">{{ d.title }}</h5>
+                <p class="card-text">url : <a href="{{ list }}{{ d.link }}" class="small">{{ list }}{{ d.link }}</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- directive: footer -->
+      <script src="ng/app1.js"></script>
+    </div>
+  </body>
+</html>
