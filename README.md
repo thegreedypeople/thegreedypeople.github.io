@@ -7,4 +7,4 @@
 ## [repo tabs](https://github.com/thegreedypeople?tab=repositories)
 ## [main (this repo)](https://github.com/thegreedypeople/thegreedypeople.github.io)
 ## [ __assets />](https://github.com/thegreedypeople/assets)
-## [ __blog />](https://github.com/thegreedypeople/blog)
+## [ __blog template />](https://github.com/thegreedypeople/blog)
